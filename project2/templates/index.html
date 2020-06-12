@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login Page</title>
+</head>
+<body>
+    <h1>Hi, welcome to my ChatRoom</h1>
+    <h2>Hello, {{name}}</h2>
+    <form action="{{url_for('index')}}" method = "post">
+        <input type="text" name="name" placeholder="Please enter your username">
+        <input type="submit" value = "Let's go">
+    </form>
+</body>
+</html>
